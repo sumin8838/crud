@@ -1,8 +1,10 @@
 'use client'
+
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { HiPencilAlt } from 'react-icons/hi'
 import RemoveBtn from './RemoveBtn'
+
 interface Topic {
   _id: string
   title: string
